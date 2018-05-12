@@ -1,0 +1,16 @@
+
+Periocidade- 10 segundos para manter a sensibilidade do utilizador que os dados estão a fluir
+
+incremental- 
+	possibilidade 1 - guardar data de chegada dos dados ao mongo e guardar data da ultima migração requer
+	collection
+
+	possibilidade 2 - utilizar as datas das proprias medidas e utilizar data da ultima migração 
+	(requer collection e perda de dados)
+
+	possibilidade 3 - campo migrated ,requer alterar valor de migrated para todos os migradas 
+	
+
+	possibilidade 4 - utilizar a data do ultimo registo enviado ( requer collection)
+
+como se lidar com os alertas
